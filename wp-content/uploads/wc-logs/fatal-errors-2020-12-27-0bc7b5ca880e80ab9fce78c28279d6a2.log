@@ -1,0 +1,266 @@
+2020-12-27T03:22:38+00:00 CRITICAL syntax error, unexpected '?>', expecting ')' in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php on line 92
+
+2020-12-27T03:23:01+00:00 CRITICAL syntax error, unexpected end of file in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php on line 110
+
+2020-12-27T03:28:20+00:00 CRITICAL syntax error, unexpected '?>', expecting ')' in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php on line 92
+
+2020-12-27T15:14:44+00:00 CRITICAL syntax error, unexpected '2' (T_LNUMBER) in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\functions.php on line 36
+
+2020-12-27T15:28:27+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\wamp64\www\nhom11\wp-content\plugins\tutsplus-separate-products-categories-in-archives\tutsplus-separate-products-categories-in-archives.php on line 46
+
+2020-12-27T15:28:27+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\wamp64\www\nhom11\wp-content\plugins\tutsplus-separate-products-categories-in-archives\tutsplus-separate-products-categories-in-archives.php on line 46
+
+2020-12-27T15:28:28+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\wamp64\www\nhom11\wp-content\plugins\tutsplus-separate-products-categories-in-archives\tutsplus-separate-products-categories-in-archives.php on line 46
+
+2020-12-27T15:50:16+00:00 CRITICAL Uncaught Error: Call to undefined function percent_sale() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:10
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php(52): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 10
+
+2020-12-27T15:50:26+00:00 CRITICAL Uncaught Error: Call to undefined function percent_sale() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:10
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php(52): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 10
+
+2020-12-27T15:50:58+00:00 CRITICAL Uncaught Error: Call to undefined function percent_sale() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:10
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php(52): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 10
+
+2020-12-27T15:51:00+00:00 CRITICAL Uncaught Error: Call to undefined function percent_sale() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:10
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php(52): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 10
+
+2020-12-27T15:51:03+00:00 CRITICAL Uncaught Error: Call to undefined function percent_sale() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:10
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php(52): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 10
+
+2020-12-27T15:51:06+00:00 CRITICAL Uncaught Error: Call to undefined function percent_sale() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:10
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php(52): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 10
+
+2020-12-27T15:51:13+00:00 CRITICAL Uncaught Error: Call to undefined function percent_sale() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:10
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php(52): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 10
+
+2020-12-27T15:51:18+00:00 CRITICAL Uncaught Error: Call to undefined function percent_sale() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:10
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php(52): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 10
+
+2020-12-27T15:51:23+00:00 CRITICAL Uncaught Error: Call to undefined function percent_sale() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:10
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php(52): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 10
+
+2020-12-27T15:51:31+00:00 CRITICAL Uncaught Error: Call to undefined function percent_sale() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:10
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php(52): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 10
+
+2020-12-27T15:51:34+00:00 CRITICAL Uncaught Error: Call to undefined function percent_sale() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:10
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php(52): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 10
+
+2020-12-27T15:52:02+00:00 CRITICAL Uncaught Error: Call to undefined function percent_sale() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:10
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php(52): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 10
+
+2020-12-27T15:52:13+00:00 CRITICAL Uncaught Error: Call to undefined function percent_sale() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:10
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php(52): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 10
+
+2020-12-27T15:52:26+00:00 CRITICAL Uncaught Error: Call to undefined function percent_sale() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:10
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php(52): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 10
+
+2020-12-27T15:52:43+00:00 CRITICAL Uncaught Error: Call to undefined function percent_sale() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:10
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php(52): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 10
+
+2020-12-27T15:52:44+00:00 CRITICAL Uncaught Error: Call to undefined function percent_sale() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:10
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php(52): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 10
+
+2020-12-27T15:52:55+00:00 CRITICAL Uncaught Error: Call to undefined function percent_sale() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:10
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php(52): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 10
+
+2020-12-27T15:53:02+00:00 CRITICAL Uncaught Error: Call to undefined function percent_sale() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:10
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php(52): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 10
+
+2020-12-27T15:54:39+00:00 CRITICAL Uncaught Error: Call to undefined function percent_sale() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:10
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php(52): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 10
+
+2020-12-27T15:54:58+00:00 CRITICAL Uncaught Error: Call to undefined function percent_sale() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:10
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php(52): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 10
+
+2020-12-27T15:55:22+00:00 CRITICAL Uncaught Error: Call to undefined function percent_sale() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:10
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php(52): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 10
+
