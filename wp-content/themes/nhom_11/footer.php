@@ -5,7 +5,7 @@
 							<div class="box-footer info-contact">
 								<h3>Thông tin liên hệ</h3>
 								<div class="content-contact">
-									<p>Website bán thiết bị điện tử số 1 Việt Nam</p>
+									<p>Website bán thiết bị điện tử hàng đầu Việt Nam</p>
 									<p>
 										<strong>Địa chỉ:</strong> 53 Võ Văn Ngân, Linh Chiểu, Thủ Đức, TP.HCM
 									</p>
@@ -57,7 +57,7 @@
 												<input type="text" name="" id="" class="form-control" placeholder="Tiêu đề">
 											</div>
 											<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-												<textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+												<textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Nội dung"></textarea>
 											</div>
 										</div>
 										<button type="submit" class="btn-contact">Liên hệ ngay</button>

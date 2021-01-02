@@ -19,20 +19,28 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-								<p>Chào mừng đến với shop bán hàng!</p>
+							<?php
+							 date_default_timezone_set("Asia/Ho_Chi_Minh");
+							 $date = date("d-m-Y H:i");
+							?>
+								<p>Chào mừng bạn đến với website bán hàng! <?php echo $date?></p>
 							</div>
 							<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 								<div class="top-menu">
-								<?php 
-								 wp_nav_menu(
-									 array(
-										 'theme_location' => 'header-top',
-										 'container' => 'false',
-										 'menu_id' => 'header-top',
-										 'menu_class' => 'header-top'
-									 )
-								 )
-								?>
+								
+								<?php if(is_user_logged_in() == false){?>
+									<ul>
+										<li><a href="<?php echo esc_url( wp_login_url() ); ?>">Login</a></li>
+									</ul>
+									
+								<?php } else {?>
+									<?php global $current_user; wp_get_current_user(); 
+									?>
+									<ul>
+										<li><a href="<?php echo get_site_url(null, '/my-account', null);?>">Hi <?php  echo ($current_user->display_name) ?></a></li>
+										<li><a href="<?php echo wp_logout_url( home_url() ); ?>">Logout</a></li>
+									</ul>
+								<?php }?>
 								</div>
 							</div>
 						</div>
@@ -49,33 +57,33 @@
 							</div>
 							<div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 order-md-1 order-2">
 								<div class="form-seach-product">
-									<form action="/" method="GET" role="form">
-										<select name="" id="input" class="form-control">
-											<option value="">Tìm kiếm</option>
-											<!-- <option value="1">Điện thoại</option>
-											<option value="2">Máy tính bảng</option>
-											<option value="3">Lap top</option> -->
-										</select>
-										<div class="input-seach">
-											<input type="text" name="s" id="" class="form-control">
-											<button type="submit" class="btn-search-pro"><i class="fa fa-search"></i></button>
-										</div>
-										<div class="clear"></div>
-									</form>
+							
+								<form class="search" method="get" action="" role="search">
+									<select name="" id="input" class="form-control">
+										<option value="">Tìm kiếm</option>			
+									</select>
+									<div class="input-seach">
+										<input type="text" class="form-control" name="s"/>
+  										<button type="submit" class="btn-search-pro"><i class="fa fa-search"></i></button>
+									</div>
+									<div class="clear"></div>
+
+								</form>
 								</div>
+
 							</div>
 							<div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3 order-md-2 order-1" style="text-align: right">
 								<a href="<?php bloginfo('url')?>/gio-hang" class="icon-cart">
-									<div class="icon">
+								 <div class="icon">
 										<i class="fa fa-shopping-cart" aria-hidden="true"></i>
-										<span>0</span>
+										<span><?php echo sprintf (_n( '%d', '%d', WC()->cart->cart_contents_count ), WC()->cart->cart_contents_count ); ?></span>
+										
 									</div>
 									<div class="info-cart">
-										<p></p>
-										<span></span>
+										<p>Giỏ hàng</p>
+										<span><?php echo WC()->cart->get_cart_total(); ?></span>
 									</div>
-									<span class="clear"></span>
-								</a>
+								</a>			
 							</div>
 						</div>
 					</div>
@@ -88,8 +96,10 @@
 									 array(
 										 'theme_location' => 'header-main',
 										 'container' => 'false',
+										 'sub_menu' => true,
 										 'menu_id' => 'header-main',
-										 'menu_class' => 'header-main'
+										 'menu_class' => 'header-main',
+										 'show_parent' => true
 									 )
 								 )
 								?>

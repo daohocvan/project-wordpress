@@ -43,7 +43,7 @@
 										'operator' => 'IN',
 									);
 									?>
-								<?php $args = array( 'post_type' => 'product','posts_per_page' => 8,'ignore_sticky_posts' => 1, 'tax_query' => $tax_query); ?>
+								<?php $args = array( 'post_type' => 'product','posts_per_page' => 8,'ignore_sticky_posts' => 1, 'tax_query' => $tax_query,'orderby' => 'title', 'order' => "ASC"); ?>
 								<?php $getposts = new WP_query( $args);?>
 								<?php global $wp_query; $wp_query->in_the_loop = true; ?>
 								<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
@@ -94,7 +94,7 @@
 						<div class="content-product-box">
 							<div class="row">
 
-								<?php $args = array( 'post_type' => 'product','posts_per_page' => 4,'ignore_sticky_posts' => 1, 'product_cat' => $cat->slug) ?>
+								<?php $args = array( 'post_type' => 'product','posts_per_page' => 4,'ignore_sticky_posts' => 1, 'product_cat' => $cat->slug,'orderby' => 'title', 'order' => "ASC") ?>
 								<?php $getposts = new WP_query( $args);?>
 								<?php global $wp_query; $wp_query->in_the_loop = true; ?>
 								<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
@@ -143,7 +143,7 @@
 						<div class="content-product-box">
 							<div class="row">
 
-								<?php $args = array( 'post_type' => 'product','posts_per_page' => 4,'ignore_sticky_posts' => 1, 'product_cat' => $cat->slug) ?>
+								<?php $args = array( 'post_type' => 'product','posts_per_page' => 4,'ignore_sticky_posts' => 1, 'product_cat' => $cat->slug,'orderby' => 'title', 'order' => "ASC") ?>
 								<?php $getposts = new WP_query( $args);?>
 								<?php global $wp_query; $wp_query->in_the_loop = true; ?>
 								<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
@@ -192,7 +192,7 @@
 						<div class="content-product-box">
 							<div class="row">
 
-								<?php $args = array( 'post_type' => 'product','posts_per_page' => 4,'ignore_sticky_posts' => 1, 'product_cat' => $cat->slug) ?>
+								<?php $args = array( 'post_type' => 'product','posts_per_page' => 4,'ignore_sticky_posts' => 1, 'product_cat' => $cat->slug,'orderby' => 'title', 'order' => "ASC") ?>
 								<?php $getposts = new WP_query( $args);?>
 								<?php global $wp_query; $wp_query->in_the_loop = true; ?>
 								<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>

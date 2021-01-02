@@ -9,3 +9,8 @@ body{font-size:14px;font-family:'Roboto', sans-serif}ul,li{margin:0;padding:0;li
     font-size: 12px;
     text-decoration: line-through;
 }
+
+.woocommerce button[name="update_cart"],
+.woocommerce input[name="update_cart"] {
+	display: none;
+}

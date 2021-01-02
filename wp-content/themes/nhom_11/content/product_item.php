@@ -12,7 +12,7 @@
 		<?php } ?>
 
 		<div class="action">
-			<a href="?add-cart=<?php the_ID()?>" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
+			<a href="?add-to-cart=<?php the_ID()?>" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
 			<a href="<?php the_permalink(); ?>" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
 			<div class="clear"></div>
 		</div>
@@ -22,7 +22,12 @@
 				<?php the_title() ?>
 			</a></h4>
 		<div class="price">
-			<?php echo $product->get_price_html()?>
+		<?php if($product->get_sale_price() != 0){?>
+		<span class="price-current"><?php echo number_format($product->get_regular_price(), 0, ',', '.')?>đ</span>
+		<span class="price-old"><?php echo number_format($product->get_sale_price(), 0, ',', '.')?>đ</span>
+		<?php } else{?>
+			<span class="price-current"><?php echo number_format($product->get_regular_price(), 0, ',', '.')?>đ</span>
+		<?php }?>
 		</div>
 		<a href="<?php the_permalink(); ?>" class="view-more">Xem chi tiết</a>
 	</div>
