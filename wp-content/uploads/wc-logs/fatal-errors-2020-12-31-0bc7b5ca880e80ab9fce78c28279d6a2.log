@@ -1,0 +1,25 @@
+2020-12-31T01:02:02+00:00 CRITICAL syntax error, unexpected 'esc_url' (T_STRING) in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\header.php on line 35
+
+2020-12-31T01:18:20+00:00 CRITICAL Uncaught Error: Call to undefined function wp_register_url() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\header.php:27
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(730): require_once()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', true, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\page.php(1): get_header()
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\header.php on line 27
+
+2020-12-31T03:06:02+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting end of file in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\header.php on line 35
+
+2020-12-31T15:01:35+07:00 CRITICAL Uncaught Error: Call to a member function get_review_count() on string in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\woocommerce\single-product-reviews.php:31
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\single-product.php(4): include()
+#1 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#4 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\woocommerce\single-product-reviews.php on line 31
+

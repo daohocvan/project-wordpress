@@ -1,0 +1,90 @@
+2020-12-30T07:11:39+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:8
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php(28): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 8
+
+2020-12-30T07:12:38+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:8
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php(28): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 8
+
+2020-12-30T07:13:12+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:8
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php(28): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 8
+
+2020-12-30T07:13:15+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:8
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php(28): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 8
+
+2020-12-30T07:16:11+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:8
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php(29): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 8
+
+2020-12-30T07:18:11+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:8
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php(28): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 8
+
+2020-12-30T15:15:38+00:00 CRITICAL Uncaught Error: Call to a member function get_review_count() on string in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\woocommerce\single-product-reviews.php:31
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\single-product.php(1): include()
+#1 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#4 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\woocommerce\single-product-reviews.php on line 31
+
+2020-12-30T15:16:01+00:00 CRITICAL Uncaught Error: Call to a member function get_review_count() on string in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\woocommerce\single-product-reviews.php:31
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\single-product.php(2): include()
+#1 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#4 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\woocommerce\single-product-reviews.php on line 31
+

@@ -1,0 +1,10 @@
+2020-12-29T14:16:25+00:00 CRITICAL Uncaught Error: Call to undefined function ecoh() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\single-product.php:18
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#3 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\single-product.php on line 18
+
+2020-12-29T14:56:25+00:00 CRITICAL syntax error, unexpected end of file in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\archive-product.php on line 52
+

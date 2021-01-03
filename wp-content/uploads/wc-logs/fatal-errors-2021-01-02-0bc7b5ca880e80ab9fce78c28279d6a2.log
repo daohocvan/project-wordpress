@@ -1,0 +1,101 @@
+2021-01-02T01:09:20+07:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customPostTypePagination(), 0 passed in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php on line 38 and exactly 1 expected in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\functions.php:188
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php(38): customPostTypePagination()
+#1 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#4 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\functions.php on line 188
+
+2021-01-02T01:09:46+07:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customPostTypePagination(), 0 passed in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php on line 38 and exactly 1 expected in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\functions.php:188
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php(38): customPostTypePagination()
+#1 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#4 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\functions.php on line 188
+
+2021-01-02T01:09:57+07:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customPostTypePagination(), 0 passed in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php on line 38 and exactly 1 expected in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\functions.php:188
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php(38): customPostTypePagination()
+#1 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#4 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\functions.php on line 188
+
+2021-01-02T01:10:01+07:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customPostTypePagination(), 0 passed in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php on line 38 and exactly 1 expected in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\functions.php:188
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php(38): customPostTypePagination()
+#1 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#4 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\functions.php on line 188
+
+2021-01-02T01:10:59+07:00 CRITICAL Uncaught TypeError: Argument 1 passed to customPostTypePagination() must be an instance of WP_Query, string given, called in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php on line 38 and defined in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\functions.php:188
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php(38): customPostTypePagination('4')
+#1 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#4 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\functions.php on line 188
+
+2021-01-02T01:13:51+07:00 CRITICAL Uncaught TypeError: Argument 1 passed to customPostTypePagination() must be an instance of WP_Query, array given, called in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php on line 38 and defined in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\functions.php:188
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php(38): customPostTypePagination(Array)
+#1 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#4 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\functions.php on line 188
+
+2021-01-02T14:43:46+07:00 CRITICAL Uncaught Error: Call to undefined function woo_pagination() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\archive-product.php:36
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#3 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\archive-product.php on line 36
+
+2021-01-02T07:45:45+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\archive-product.php on line 79
+
+2021-01-02T08:00:13+00:00 CRITICAL syntax error, unexpected end of file in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\archive-product.php on line 89
+
+2021-01-02T09:23:06+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\archive-product.php on line 52
+
+2021-01-02T09:43:27+00:00 CRITICAL syntax error, unexpected '}' in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\archive-product.php on line 42
+
+2021-01-02T19:47:54+07:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function kli_wc_shortcode_pagination(), 0 passed in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php on line 38 and exactly 1 expected in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\functions.php:238
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php(38): kli_wc_shortcode_pagination()
+#1 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#3 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#4 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\functions.php on line 238
+
+2021-01-02T21:36:15+07:00 CRITICAL Uncaught Error: Call to undefined function the_products_pagination() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php:39
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#3 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php on line 39
+
+2021-01-02T21:39:52+07:00 CRITICAL Uncaught Error: Call to undefined function woo_pagination() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php:53
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#3 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\search.php on line 53
+
+2021-01-02T15:13:38+00:00 CRITICAL syntax error, unexpected '?>', expecting ')' in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\archive-product.php on line 27
+
+2021-01-02T15:37:47+00:00 CRITICAL syntax error, unexpected 'posts_per_page' (T_STRING), expecting ')' in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\archive-product.php on line 25
+
+2021-01-02T17:03:47+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\page-giam-gia.php on line 63
+
