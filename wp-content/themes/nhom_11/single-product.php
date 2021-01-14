@@ -3,4 +3,4 @@
 <div class="container">
     <?php include('woocommerce/single-product.php') ?>
 </div>
-<?php get_footer() ?>               
+<?php get_footer() ?>        

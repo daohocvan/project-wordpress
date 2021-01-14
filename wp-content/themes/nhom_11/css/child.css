@@ -24,22 +24,91 @@
 a.detail{
     display: inline-block;
     padding: 5px 10px;
-    background: #2196f3;
+    background: #ee4d2d;
     color: #fff;
     border-radius: 30px;
 }
 
 a.detail:hover{
- background: #333;
+ background: #f5bc42;
 }
 
 .page-numbers{
     display: inline-block;
-    
     padding: 3px 10px;
-    border: 1px solid #2196f3
+    border: 1px solid #2196f3;
 }
 
 .quatrang{
     text-align: center;
+}
+ .main-menu-header{
+    background: #ee4d2d !important;
+}
+header .main-menu-header #nav-menu ul li.current-menu-item a{
+    background: #f5bc42 !important;
+}
+header .main-menu-header #nav-menu ul li ul{
+    background: #f5bc42 !important;
+}
+header .main-menu-header #nav-menu ul li ul li a:hover{
+    background: #ee4d2d !important;
+}
+
+header .main-header .form-seach-product .input-seach button{
+    color: #fff !important;
+    background:  #f54242 !important;
+    right: -120px;
+}
+header .main-header .form-seach-product .input-seach input{
+    border: 1px solid #ee4d2d;
+    width: 130%;
+}
+
+#content .item-product .info-product a.view-more{
+    background: #ee4d2d !important;
+}
+#content .item-product .thumb .sale{
+    background: red;
+}
+
+#content .item-product .thumb .action a{
+    width: 100%;
+    background: #f5bc42;
+}
+
+#content .item-product .thumb .action a:hover{
+    background: #ee4d2d;
+}
+
+#content .widget h3{
+    background: #ee4d2d;
+}
+
+#content .product-section h2.title-product .title{
+    color: #ee4d2d;
+   
+}
+#content .product-section h2.title-product{
+    border-bottom: 2px solid #ee4d2d;
+}
+
+.page-item.active .page-link{
+    background-color: #ee4d2d;
+    border-color: #ee4d2d;
+}
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+    background: #ee4d2d;
+}
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+    background-color: #f5bc42;
+}
+
+.pay{
+    margin-right: 10px;
+}
+
+.woocommerce .wishlist-title{
+    display: none;
 }

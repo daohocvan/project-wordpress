@@ -9,7 +9,7 @@
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 order-lg-0 order-0">
 					<div class="product-section">
 						<h2 class="title-product">
-							Danh mục
+							Sản phẩm theo danh mục
 							<div class="clear"></div>
 						</h2>
 						<div class="content-product-box">
@@ -23,10 +23,8 @@
 	
 							<?php endwhile;?>
 							<?php endif; ?>
-							</div>
-							
-						</div>
-						
+							</div>	
+						</div>	
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 order-lg-1 order-1">

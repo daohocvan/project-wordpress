@@ -5,6 +5,7 @@ function my_custom_theme_support(){
     add_theme_support('wc-product-gallery-slider');
 }
 add_action('after_setup_theme', 'my_custom_theme_support');
+
 function initTheme(){
     add_filter('use_block_editor_for_post', '__return_false');
     register_nav_menu('header-top', __('Menu top'));
@@ -21,6 +22,7 @@ function initTheme(){
             'after_title' => '</h3>'
         ));
     }
+
     function setPostView($postID){
         $count_key = 'views';
         $count = get_post_meta($postID, $count_key, true);
@@ -44,12 +46,12 @@ function initTheme(){
             return '1';
         }
         return $count;
-    }
-
+    }    
 }
 
 add_action('init', 'initTheme');
 
+//% giảm giá
 function percent_sale($price, $price_sale){
     $sale = ($price_sale * 100) / $price;
     $result = 100 - $sale;
@@ -58,10 +60,8 @@ function percent_sale($price, $price_sale){
 
 /* Tự động chuyển đến một trang khác sau khi login */
 function my_login_redirect( $redirect_to, $request, $user ) {
-    //is there a user to check?
     global $user;
     if ( isset( $user->roles ) && is_array( $user->roles ) ) {
-            //check for admins
             if ( in_array( 'administrator', $user->roles ) ) {
                     
                     return admin_url();
@@ -121,8 +121,8 @@ add_action( 'woocommerce_after_cart', function() {
     <?php
  } );
 
- //Custom form checkout
- add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields',99 );
+//Custom form checkout
+add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields',99 );
 function custom_override_checkout_fields( $fields ) {
     unset($fields['billing']['billing_company']);
     unset($fields['billing']['billing_first_name']);
@@ -171,6 +171,7 @@ function woocommerce_header_add_to_cart_fragment( $fragments ) {
  return $fragments;
 }
 
+//Phân trang
 function pagination($pages = '', $range = 4)
 {
     $showitems = ($range * 2)+1;
@@ -187,7 +188,6 @@ function pagination($pages = '', $range = 4)
     }
     if(1 != $pages)
     {
-        // echo "<nav aria-label='Page navigation example'>  <ul class='pagination'> <span>Page ".$paged." of ".$pages."</span>";
         if($paged > 2 && $paged > $range+1 && $showitems < $pages) echo "<a href='".get_pagenum_link(1)."'>&laquo; First</a>";
         if($paged > 1 && $showitems < $pages) echo "<a href='".get_pagenum_link($paged - 1)."'>&lsaquo; Previous</a>";
         for ($i=1; $i <= $pages; $i++)
@@ -202,11 +202,67 @@ function pagination($pages = '', $range = 4)
         echo "</ul></nav>\n";
     }
 }
+add_filter('init', 'after_login');
+
+function after_login() {
+    if(is_user_logged_in() && $_SERVER['REQUEST_URI'] == "/nhom11/login"){
+        wp_redirect( "http://localhost:82/nhom11/my-account" );
+        exit();
+    }
+    if(is_user_logged_in() && $_SERVER['REQUEST_URI'] == "/nhom11/register"){
+        wp_redirect( "http://localhost:82/nhom11/my-account" );
+        exit();
+    }
+    if(!is_user_logged_in() && $_SERVER['REQUEST_URI'] == "/nhom11/my-account"){
+        wp_redirect( "http://localhost:82/nhom11/login" );
+        exit();
+    }
+    if(is_user_logged_in() && $_SERVER['REQUEST_URI'] == "/nhom11/lostpassword"){
+        wp_redirect( "http://localhost:82/nhom11/my-account" );
+        exit();
+    }
+}
+
+//Slider
+function slider_post_type(){
+    $label = array(
+        'name' => 'Slider',
+        'singular_name' => 'Slider'
+    );
+ 
+    $args = array(
+        'labels' => $label,
+        'description' => 'Slider',
+        'supports' => array(
+            'title',
+            'thumbnail',
+        ),
+        'hierarchical' => false,
+        'public' => true,
+        'show_ui' => true,
+        'show_in_menu' => true,
+        'show_in_nav_menus' => true, 
+        'show_in_admin_bar' => true, 
+        'menu_position' => 5, 
+        'menu_icon' => 'dashicons-format-gallery',
+        'can_export' => true,
+        'has_archive' => true,
+        'exclude_from_search' => false,
+        'publicly_queryable' => true,
+        'capability_type' => 'post'
+    );
+
+    register_post_type('slider', $args);
+}
+add_action('init', 'slider_post_type');
+
+add_filter( 'woocommerce_product_single_add_to_cart_text', 'woocommerce_custom_single_add_to_cart_text' ); 
+function woocommerce_custom_single_add_to_cart_text() {
+    return __( 'Mua ngay', 'woocommerce' ); 
+}
 
 
 
-
-  
  
 
  

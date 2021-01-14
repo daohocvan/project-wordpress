@@ -7,13 +7,17 @@
 		<?php 
 			if($product->is_on_sale()){?>
 		<span class="sale">Giảm <br>
+
 			<?php echo(percent_sale($product->get_regular_price(), $product->get_sale_price()))?>%
+
 		</span>
 		<?php } ?>
 
 		<div class="action">
+
 			<a href="?add-to-cart=<?php the_ID()?>" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
-			<a href="<?php the_permalink(); ?>" class="like"><i class="fa fa-heart"></i> Yêu thích</a>
+
+			<!-- <a href="<?php the_permalink(); ?>" class="like"><i class="fa fa-heart"></i> Yêu thích</a> -->
 			<div class="clear"></div>
 		</div>
 	</div>
@@ -23,12 +27,15 @@
 			</a></h4>
 		<div class="price">
 		<?php if($product->get_sale_price() != 0){?>
-		<span class="price-current"><?php echo number_format($product->get_regular_price(), 0, ',', '.')?>đ</span>
 		<span class="price-old"><?php echo number_format($product->get_sale_price(), 0, ',', '.')?>đ</span>
+		<span class="price-current"><?php echo number_format($product->get_regular_price(), 0, ',', '.')?>đ</span>
+	
 		<?php } else{?>
 			<span class="price-current"><?php echo number_format($product->get_regular_price(), 0, ',', '.')?>đ</span>
 		<?php }?>
 		</div>
-		<a href="<?php the_permalink(); ?>" class="view-more">Xem chi tiết</a>
+		<!-- <a href="<?php the_permalink(); ?>" class="view-more">Xem chi tiết</a> -->
 	</div>
 </div>
+
+

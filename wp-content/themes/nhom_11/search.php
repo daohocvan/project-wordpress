@@ -9,16 +9,15 @@
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 order-lg-0 order-0">
 					<div class="product-section">
                         <h2 class="title-product">
-                            Kết qua tìm kiếm cho: 
+                            Kết quả tìm kiếm cho: 
                             <?php _e(get_query_var('s'))?>
                             <div class="clear"></div>
 					    </h2>
                         <div class="content-product-box">
 							<div class="row">
-
                                 <?php 
-								 $s=get_search_query();
-								 
+								 $s=get_search_query();				 
+								 //Phân trang
  								$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
                                  $args = array(
 												 'post_type' => 'product',
@@ -40,12 +39,8 @@
 								<?php endwhile; wp_reset_postdata(); ?>
 								<?php  pagination($getposts->max_num_pages); ?>
 							</div>
-							
 						</div>
-						
 					</div>
-					
-				
 				</div>
 				
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 order-lg-1 order-1">

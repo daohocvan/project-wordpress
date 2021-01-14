@@ -16,16 +16,13 @@
 								<?php the_post_thumbnail('full')?>
 							</a>
 							</div>
-							
 							<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
 							<h4><a href="<?php the_permalink()?>"><?php the_title()?></a></h4>
 							<?php the_excerpt()?>
 							<a href="<?php the_permalink() ?>" class="detail">Xem chi tiết</a>
 							</div>
 							
-						</div>
-						
-							
+						</div>	
 						</div>
 						<?php endwhile;?>
 						<?php endif; ?>					

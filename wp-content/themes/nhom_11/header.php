@@ -23,14 +23,25 @@
 							 date_default_timezone_set("Asia/Ho_Chi_Minh");
 							 $date = date("d-m-Y H:i");
 							?>
-								<p>Chào mừng bạn đến với website bán hàng! <?php echo $date?></p>
+								<p>Chào mừng bạn đến với website bán hàng! 
 							</div>
 							<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 								<div class="top-menu">
 								
 								<?php if(is_user_logged_in() == false){?>
 									<ul>
-										<li><a href="<?php echo esc_url( wp_login_url() ); ?>">Login</a></li>
+										<?php 
+								 			wp_nav_menu(
+												array(
+										 			'theme_location' => 'header-top',
+										 			'container' => 'false',
+										 			'sub_menu' => true,
+										 			'menu_id' => 'header-top',
+										 			'menu_class' => 'header-top',
+										 			'show_parent' => true
+									 			)
+											 )
+										?>
 									</ul>
 									
 								<?php } else {?>
@@ -39,6 +50,7 @@
 									<ul>
 										<li><a href="<?php echo get_site_url(null, '/my-account', null);?>">Hi <?php  echo ($current_user->display_name) ?></a></li>
 										<li><a href="<?php echo wp_logout_url( home_url() ); ?>">Logout</a></li>
+										<li><a href="<?php echo get_site_url(null, '/my-account/orders', null);?>">Orders</a></li>
 									</ul>
 								<?php }?>
 								</div>
@@ -57,20 +69,14 @@
 							</div>
 							<div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 order-md-1 order-2">
 								<div class="form-seach-product">
-							
-								<form class="search" method="get" action="" role="search">
-									<select name="" id="input" class="form-control">
-										<option value="">Tìm kiếm</option>			
-									</select>
-									<div class="input-seach">
-										<input type="text" class="form-control" name="s"/>
-  										<button type="submit" class="btn-search-pro"><i class="fa fa-search"></i></button>
-									</div>
-									<div class="clear"></div>
-
-								</form>
+									<form class="search" method="get" action="" role="search">
+										<div class="input-seach">
+											<input type="text" class="form-control" name="s" placeholder="SALE TẾT 27.1"/>
+											<button type="submit" class="btn-search-pro"><i class="fa fa-search"></i></button>
+										</div>
+										<div class="clear"></div>
+									</form>
 								</div>
-
 							</div>
 							<div class="col-6 col-xs-6 col-sm-6 col-md-3 col-lg-3 order-md-2 order-1" style="text-align: right">
 								<a href="<?php bloginfo('url')?>/gio-hang" class="icon-cart">
@@ -91,7 +97,7 @@
 				<div class="main-menu-header">
 					<div class="container">
 						<div id="nav-menu">
-						<?php 
+							<?php 
 								 wp_nav_menu(
 									 array(
 										 'theme_location' => 'header-main',
@@ -102,9 +108,11 @@
 										 'show_parent' => true
 									 )
 								 )
-								?>
+							?>
 							<div class="clear"></div>
 						</div>
 					</div>
 				</div>
 			</header>
+
+

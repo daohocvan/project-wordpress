@@ -2,12 +2,16 @@
 	<h3>Danh mục sản phẩm</h3>
 	<div class="content-cat">
 		<ul>
+			
+			<?php $cat = get_term_by('id', $category->term_id, 'product_cat')?>
 			<?php 
 				$args = array(
-						'type' => 'product',
-						'child_of' => '0',
-						'parent' => '0',
-						'taxonomy' => 'product_cat');	
+					'type' => 'product',
+					'child_of' => '0',
+					'taxonomy' => 'product_cat',
+					'number' => '10',
+					'parent' => $cat->term_id
+				);	
 				$categories = get_categories($args);
 				foreach ($categories as $category){ ?>
 					<li><i class="fa fa-angle-right"></i><a href="<?php echo get_term_link($category->slug, 'product_cat')?>">
@@ -17,22 +21,22 @@
 		</ul>
 	</div>
 </div> -->
+
 <div class="widget">
 <h3>
-		<i class="fa fa-bars"></i>
+<i class="fa fa-eye"></i>
 		Sản phẩm vừa xem
 	</h3>
 	<div class="content-w">
 		<ul>
-	
 		<?php if(isset($_SESSION["viewed"]) && $_SESSION["viewed"]){
-	$data = $_SESSION["viewed"];
-	$args = array(
-		'post_type' => 'product',
-		'post_status' => 'publish',
-		'posts_per_page' => 5,
-		'post__in'	=> $data
-	);
+		$data = $_SESSION["viewed"];
+		$args = array(
+			'post_type' => 'product',
+			'post_status' => 'publish',
+			'posts_per_page' => 5,
+			'post__in'	=> $data
+		);
 ?>
 <?php $getposts = new WP_query( $args);?>
 <?php global $wp_query; $wp_query->in_the_loop = true; ?>
@@ -49,14 +53,14 @@
 } else { ?> 
 	<p>Không có sản phẩm nào vừa xem!</p>
 <?php } ?>		
-			
-			
 		</ul>
 	</div>
 </div>
+
+
 <div class="widget">
 <h3>
-		<i class="fa fa-bars"></i>
+<i class="fa fa-plus-square"></i>
 		Sản phẩm mới nhất
 	</h3>
 	<div class="content-w">
@@ -75,22 +79,22 @@
 		<div class="clear"></div>
 	</li>
 <?php endwhile;  wp_reset_postdata(); ?>
-		
-			
-			
 		</ul>
 	</div>
 </div>
+
+
+
 <div class="widget">
 	<h3>
-		<i class="fa fa-bars"></i>
+	<i class="fa fa-star"></i>
 		Đánh giá cao
 	</h3>
 	<div class="content-w">
 		<ul>
 	
 		<?php $args = array(
-		'posts_per_page' => 2,
+		'posts_per_page' => 3,
 		'post_status'    => 'publish',
 		'post_type'      => 'product',
 		'meta_key'       => '_wc_average_rating',
@@ -108,14 +112,12 @@
 		<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 		<div class="clear"></div>
 	</li>
-<?php endwhile;  wp_reset_postdata(); ?>
-		
-			
-			
+<?php endwhile;  wp_reset_postdata(); ?>	
 		</ul>
 	</div>
 </div>
-<div class="widget">
+
+<!-- <div class="widget">
 	<h3>
 		<i class="fa fa-bars"></i>
 		Tin tức
@@ -141,8 +143,7 @@
 		</ul>
 	</div>
 	
-</div>
+</div> -->
 
-
-
-<?php if(!function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar')) :?> <?php endif; ?>
+<!-- <?php if(!function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar')) :?> <?php endif; ?> -->
+			

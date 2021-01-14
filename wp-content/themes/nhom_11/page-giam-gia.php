@@ -20,7 +20,10 @@
 							$args = array( 
 							'post_type' => 'product',
 							'posts_per_page' => 4,
+							'orderby' => 'title', 
+							'order' => "ASC",
 							'paged' => $paged,
+							
 							'meta_query'     => array(
 								'relation' => 'OR',
 								array(
