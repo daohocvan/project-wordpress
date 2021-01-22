@@ -1,0 +1,18 @@
+2021-01-10T06:39:50+00:00 CRITICAL syntax error, unexpected '}' in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\archive-product.php on line 82
+
+2021-01-10T06:44:54+00:00 CRITICAL syntax error, unexpected end of file in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\archive-product.php on line 100
+
+2021-01-10T13:45:10+07:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php:8
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\archive-product.php(80): get_template_part('content/product...')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\content\product_item.php on line 8
+
+2021-01-10T07:16:21+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\archive-product.php on line 36
+

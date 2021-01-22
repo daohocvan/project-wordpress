@@ -28,7 +28,7 @@
 						<?php endif; ?>					
 					</div>
 					<?php if(paginate_links()!='') {?>
-	<div class="quatrang">
+	<div class="phanTrang">
 		<?php
 		global $wp_query;
 		$big = 999999999;

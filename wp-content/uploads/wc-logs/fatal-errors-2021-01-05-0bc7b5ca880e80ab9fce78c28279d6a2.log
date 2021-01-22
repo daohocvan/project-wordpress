@@ -1,0 +1,18 @@
+2021-01-05T14:46:49+07:00 CRITICAL Uncaught Error: Call to undefined function the_get_ID() in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\slider.php:16
+Stack trace:
+#0 C:\wamp64\www\nhom11\wp-includes\template.php(732): require()
+#1 C:\wamp64\www\nhom11\wp-includes\template.php(676): load_template('C:\\wamp64\\www\\n...', false, Array)
+#2 C:\wamp64\www\nhom11\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\wamp64\www\nhom11\wp-content\themes\nhom_11\index.php(4): get_template_part('slider')
+#4 C:\wamp64\www\nhom11\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\n...')
+#5 C:\wamp64\www\nhom11\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nhom11\index.php(17): require('C:\\wamp64\\www\\n...')
+#7 {main}
+  thrown in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\slider.php on line 16
+
+2021-01-05T08:15:42+00:00 CRITICAL syntax error, unexpected end of file in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\archive-product.php on line 81
+
+2021-01-05T08:24:12+00:00 CRITICAL syntax error, unexpected '<' in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\archive-product.php on line 25
+
+2021-01-05T08:25:58+00:00 CRITICAL syntax error, unexpected end of file in C:\wamp64\www\nhom11\wp-content\themes\nhom_11\archive-product.php on line 71
+
